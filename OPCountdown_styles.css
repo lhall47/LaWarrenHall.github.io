@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Verdana, Geneva, sans-serif';
+    color: black;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+  h1, h2 {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* Countdown and Current Time Section Styles */
+  .countdown-section, .current-time-section {
+    text-align: center;
+    width: 60%;
+    background-color: rgb(255, 223, 102);
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #countdown, #current-time {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+  }
+  
+  /* Navigation Styles */
+  nav.horizontal {
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  
+  nav.horizontal li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav.horizontal a {
+    text-decoration: underline;
+    padding: 10px;
+    background-color: rgb(255, 223, 102);
+    color: black;
+    border-radius: 5px;
+  }
+  
+  nav.horizontal a:hover {
+    background-color: white;
+    color: gray;
+  }
+  
+  /* Header Styles */
+  header, nav.horizontal {
+    background-color: rgb(255, 223, 102);
+    text-align: center;
+  }
+  
+  /* Container Styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    flex: 1;
+  }
+  
+  /* Main Styles */
+  main {
+    display: flex;
+    flex: 1;
+    overflow: auto;
+  }
+  
+  /* Article Styles */
+  article{
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  
+  /* Footer Styles */
+  footer {
+    background-color: rgb(255, 223, 102);
+    width: 63%;
+    color: black;
+    font-size: 0.9em;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: auto;
+  }
+  

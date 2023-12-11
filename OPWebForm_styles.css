@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: 'Verdana, Geneva, sans-serif';
+    color: black;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Styles */
+nav.horizontal {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+nav.horizontal li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav.horizontal a {
+    text-decoration: underline;
+    padding: 10px;
+    background-color: rgb(255, 223, 102);
+    color: black;
+    border-radius: 5px;
+}
+
+nav.horizontal a:hover {
+    background-color: white;
+    color: gray;
+}
+
+/* Header Styles */
+header, nav.horizontal {
+    background-color: rgb(255, 223, 102);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Web Form Styles */
+.WebForm {
+    width: 50%;
+    background-color: rgb(255, 223, 102);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.WebForm h1 {
+    color: black;
+}
+
+/* Fieldset Styles */
+fieldset {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Label and Input Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Radio Button Styles */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit and Reset Button Styles */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: white;
+    color: gray;
+}

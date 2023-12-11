@@ -1,0 +1,50 @@
+/*home page layout*/
+
+/* 
+    Layout Style sheet for formatting One Piece website code
+
+    Project work
+*/ 
+
+/* Page Body Styles */
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	max-width: 960px;
+	min-width: 640px;  
+    margin-bottom: 20px; /* Added to create space between content and footer */
+}
+ 
+ 
+ /* Image Styles */
+ img {
+	display: block;
+	width: 100%;
+ }
+ 
+ .character-page {
+	max-width: 100%;
+	height: auto;
+ }
+ 
+ /* Horizontal Navigation Styles */
+ nav.horizontal li {
+	display: block;
+	float: left;
+	width: auto;
+	margin-right: 10px;
+ }
+ 
+ nav.horizontal a {
+	display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+ }  
+
+/* Footer Styles */
+footer {
+    margin-top: 0;
+}

@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+/* Navigation Styles */
+nav.horizontal {
+    background-color: rgb(255, 223, 102);
+    text-align: center;
+}
+
+nav.horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+nav.horizontal li {
+    float: left;
+    display: inline;
+}
+
+nav.horizontal a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    text-decoration: underline;
+}
+
+nav.horizontal a:hover {
+    background-color: white;
+    color: gray;
+}
+
+/* Main Content Styles */
+img {
+    display: block;
+    margin: auto;
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    text-indent: 1em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(255, 223, 102);
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: auto; 
+}

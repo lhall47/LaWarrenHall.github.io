@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey</title>
+    <link href="OPWebForm_styles.css"   rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <nav class="horizontal">
+            <ul> <!--Top navigation bar to jump across website-->
+               <li><a href="OP_Home.html">Home</a></li>
+               <li><a href="OP_Characters.html">Characters</a></li>
+               <li><a href="OP_GrandLine.html">The Grand Line</a></li>
+               <li><a href="OP_Countdown.html">New Episode</a></li>
+               <li><a href="OP_WebForm.html">Survey</a></li>
+            </ul>
+         </nav>
+    </header>
+
+    <div class="WebForm">
+        <h1>User Survey</h1>
+        <form action="#" method="post">
+            <fieldset> <!--Section for entering personal information-->
+                <legend>Enter Your Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="birthDate">Birth Date:</label>
+                <input type="date" id="birthDate" name="birthDate">
+            </fieldset>
+
+            <fieldset> <!--section for choosing favorite strawhat character -->
+                <legend>Preferences</legend>
+                <label>Select your favorite Straw Hat Pirate:</label>
+                <input type="radio" id="luffy" name="strawHat" value="luffy">
+                <label for="luffy">Monkey D. Luffy</label>
+
+                <input type="radio" id="zoro" name="strawHat" value="zoro">
+                <label for="zoro">Roronoa Zoro</label>
+
+                <input type="radio" id="nami" name="strawHat" value="nami">
+                <label for="nami">Nami</label>
+
+                <input type="radio" id="usopp" name="strawHat" value="usopp">
+                <label for="usopp">Usopp</label>
+
+                <input type="radio" id="sanji" name="strawHat" value="sanji">
+                <label for="sanji">Sanji</label>
+
+                <input type="radio" id="chopper" name="strawHat" value="chopper">
+                <label for="chopper">Tony Tony Chopper</label>
+
+                <input type="radio" id="robin" name="strawHat" value="robin">
+                <label for="robin">Nico Robin</label>
+
+                <input type="radio" id="franky" name="strawHat" value="franky">
+                <label for="franky">Franky</label>
+
+                <input type="radio" id="brook" name="strawHat" value="brook">
+                <label for="brook">Brook</label>
+
+                <input type="radio" id="jinbei" name="strawHat" value="jinbei">
+                <label for="jinbei">Jinbei</label>
+            </fieldset>
+
+            <fieldset> <!--Section for additional comments from users-->
+                <legend>Additional Information</legend>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </fieldset>
+
+            <fieldset> <!--submit or reset buttons-->
+                <legend>Submit or Reset</legend>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

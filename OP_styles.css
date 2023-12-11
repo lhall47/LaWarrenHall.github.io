@@ -1,0 +1,80 @@
+/*home page styles*/
+/* HTML and Body Styles */ 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* Page Body Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+/* Header and Navigation Styles */
+header, nav.horizontal {
+    background-color: rgb(255, 223, 102);
+    text-align: center;
+    padding: 10px;
+}
+
+nav.horizontal {
+    margin-bottom: 20px;
+}
+nav.horizontal a:hover {
+    background-color: white;
+    color: gray;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+
+/* Main Content Styles */
+main {
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+aside {
+    height: 60%;
+    width: 25%;
+    overflow-y: auto;
+    background-color: rgb(255, 223, 102);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: rgb(255, 223, 102);
+    color: black;
+    font-size: 0.9em;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: auto; 
+}
